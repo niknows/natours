@@ -44,12 +44,21 @@ body{
   height: 35px;
 }
 .heading-primary{
+  color: #fff;
+  text-transform: uppercase;
 
+}
+.heading-primary--main,
+.heading-primary--sub{
+  display: block;
+  font-weight: 400;
 }
 
 .heading-primary--main{
-
+  font-size: 60px;
+  letter-spacing: 35px;
 }
 .heading-primary--sub{
-
+  font-size: 20px;
+  letter-spacing: 17.4px;
 }
