@@ -1,3 +1,11 @@
+/*
+COLORS:
+
+Light green: #7ed56f;
+Medium green: #55c57a;
+Dark green: #28b485;
+*/
+
 /*GLOBAL RESET*/
 *{
   margin: 0;
@@ -11,11 +19,16 @@ body{
   font-size: 16px;
   line-height: 1.7; /*1.7 times bigger*/
   color: #777;
+  padding: 30px;
 }
 
 .header{
   height: 95vh; /*95% of viewport height*/
-  background-image: url('../img/hero.jpg');
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(126, 312, 111, 0.8),
+    rgba(40, 180, 131, 0.8)),
+    url('../img/hero.jpg');
   background-size: cover; /*try to fit the element inside the box*/
-  background-position: top;
+  background-position: top; /*prioritizes the display of the upper part of the image
 }
