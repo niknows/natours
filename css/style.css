@@ -29,7 +29,27 @@ body{
     rgba(126, 312, 111, 0.8),
     rgba(40, 180, 131, 0.8)),
     url('../img/hero.jpg');
+  position: relative;
   background-size: cover; /*try to fit the element inside the box*/
   background-position: top; /*prioritizes the display of the upper part of the image*/
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /**/
+}
+
+.header__logo-box{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.header__logo{
+  height: 35px;
+}
+.heading-primary{
+
+}
+
+.heading-primary--main{
+
+}
+.heading-primary--sub{
+
 }
