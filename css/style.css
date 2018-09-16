@@ -31,5 +31,5 @@ body{
     url('../img/hero.jpg');
   background-size: cover; /*try to fit the element inside the box*/
   background-position: top; /*prioritizes the display of the upper part of the image*/
-  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%); /**/
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /**/
 }
