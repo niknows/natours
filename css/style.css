@@ -42,6 +42,8 @@ body{
 }
 .header__logo{
   height: 35px;
+  animation-name: entrance;
+  animation-duration: 1.5s;
 }
 .header__text-box{
   position: absolute;
@@ -61,7 +63,7 @@ body{
   font-size: 60px;
   letter-spacing: 35px;
   animation-name: moveInLeft;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .heading-primary--sub{
@@ -69,6 +71,8 @@ body{
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 17.4px;
+  animation-name: moveInRight;
+  animation-duration: 1s;
 }
 
 @keyframes moveInLeft {
@@ -81,4 +85,24 @@ body{
      opacity: 1;
      transform: translate(0);
    }
+}
+
+@keyframes moveInRight{
+  0%{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes entrance{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
