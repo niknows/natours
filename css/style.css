@@ -56,14 +56,14 @@ body{
 }
 
 .heading-primary--main{
-  display:: block;
+  display: block;
   font-weight: 400;
   font-size: 60px;
   letter-spacing: 35px;
   animation-name: moveInLeft;
   animation-duration: 3s;
-  animation-iteration-count: 1;
 }
+
 .heading-primary--sub{
   display: block;
   font-weight: 700;
@@ -75,9 +75,6 @@ body{
    0%{
      opacity: 0;
      transform: translateX(-100px);
-   }
-   80{
-
    }
 
    100%{
